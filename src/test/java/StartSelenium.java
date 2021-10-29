@@ -19,7 +19,7 @@ public class StartSelenium {
         WebDriverManager.chromedriver().setup();
 
 
-  // wd=new ChromeDriver();
+   wd=new ChromeDriver();
         System.setProperty("webdriver.chrome.driver", "/Users/roiz/Documents/GitHub/Untitled/StartSelenium_Anna/chromedriver");
    //wd.get("https://contacts-app.tobbymarshall815.vercel.app/login");
    wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/login");
